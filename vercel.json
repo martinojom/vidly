@@ -12,12 +12,12 @@
   ],
   "routes": [
     {
-      "src": "/static/(.*)",
+      "src": "/(.*)",
       "dest": "/static/$1"
     },
     {
       "src": "/(.*)",
-      "dest": "backend/wsgi.py"
+      "dest": "vidly/wsgi.py"
     }
   ]
 }
